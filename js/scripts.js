@@ -2,14 +2,22 @@
 
 //Business logic
 
-let str = "18963232";
-function beep(str){
-  const strSplit = str.split("");
+function rogers(num){
+  let orginalArray = [];
+  for (let i = 0; i <= num; i++){
+    orginalArray.push(i);
+  };
   const newArray = [];
-  // const firstResult =  str.replace(1,"Beep!")
-  for (let i = 0; i < str.length; i++){
-    str[i].replace(1, "Beep!");
-    str[i].replace(2, "Bloop!");
-    str[i].replace(3 || 32, "Won't you be my neighbor!");
-  }
+  orginalArray.forEach(function(num) {
+    if (num.toString().includes(3)){
+      newArray.push("Won't you be my neighbor?");
+    }else if (num.toString().includes(2)) {
+      newArray.push("Bloop!");
+    } else if (num.toString().includes(1)){
+      newArray.push("Beep!")
+    }else{
+      newArray.push(num);
+    }
+  });
+  return newArray;
 }
