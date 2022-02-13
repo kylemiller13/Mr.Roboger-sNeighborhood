@@ -24,9 +24,9 @@ function rogers(num){
 }
 // User interface Logic:
 $(document).ready(function() {
-  $("userInput#number").submit(function(event){
+  $(".userInput").submit(function(event){
     event.preventDefault();
-    let usersInput = parseInt($("userInput#number").val());
+    let usersInput = parseInt($(".userInput#number").val());
     $("#result").show();
     rogers(usersInput);
   });
