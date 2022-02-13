@@ -10,3 +10,6 @@ h1{
 .userInput{
   text-align: center;
 }
+.userOutput{
+  display: none;
+}
