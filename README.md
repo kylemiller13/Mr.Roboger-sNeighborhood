@@ -4,7 +4,7 @@
 
 #### This is a website that takes a number from the user and returns a range of numbers from 0 to the user inputted number
 
-## _[GitHub Pages](https://kylemiller13.github.io/languageSuggester/)_
+## _[GitHub Pages]_
 
 ## Technologies Used
 
@@ -24,7 +24,7 @@ _A website that takes a number from the user and returns a range of numbers from
 - _Access your computer's terminal shell(Git Bash for Windows or Mac for terminal)_
 - _In terminal:_
 - `Go to the current directory where you want the cloned directory to be added.`
-- `Clone the repository by using the command $ git clone https://github.com/kylemiller13/languageSuggester`
+- `Clone the repository by using the command $ git clone `
 - `Lastly, open index.html`
 
 ## Known Bugs
