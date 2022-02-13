@@ -33,7 +33,7 @@ _A website that takes a number from the user and returns a range of numbers from
 
 ## License
 
-- N/A Copyright (c) 1/14/2022, Kyle Miller
+- N/A Copyright (c) 2/12/2022, Kyle Miller
 - _[MIT](https://opensource.org/licenses/MIT)_
 
 ## Tests:
