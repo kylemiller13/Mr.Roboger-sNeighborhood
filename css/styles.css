@@ -10,6 +10,20 @@ h1{
 .userInput{
   text-align: center;
 }
-.userOutput{
-  display: none;
+img{
+  max-width: 90%;
+  max-height: auto;
+  border-radius: 50%;
+  margin: 15px;
+  width: 50%;
+}
+#number{
+  display: block;
+  margin: 0 auto;
+}
+body{
+  padding: 20px;
+}
+#result{
+  text-align: center;
 }
