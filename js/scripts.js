@@ -26,4 +26,7 @@ $(document).ready(function () {
     let usersInput = parseInt($("#number").val());
     $("#result").text(rogers(usersInput));
   });
+  $('#refresh').click(function() {
+    location.reload();
+  });
 });
